@@ -1,0 +1,264 @@
+/* laptop/desktop 1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* normal desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .hero-bg {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    .nav-wrapper {
+        padding-top: 20px;
+    }
+    .nav-wrapper nav ul li:last-child {
+        margin-left: 0;
+    }
+    .nav-wrapper nav ul li:last-child:hover a::before {
+        width: 0%;
+    }
+    .responsive-btn {
+        border-radius: 0;
+    }
+    .ellipse4 {
+        right: -38px;
+    }
+    .ellipse8 {
+        right: 4%;
+    }
+    .ellipse3 {
+        display: none;
+    }
+    .hero-image {
+        display: none;
+    }
+    .ellipse3,
+    .ellipse1,
+    .ellipse8,
+    .ellipse6 {
+        display: none;
+    }
+    .about-text h3 {
+        font-size: 37px;
+        line-height: 49px;
+    }
+    .about-text p {
+        font-size: 15px;
+    }
+    .responsive-center {
+        text-align: center;
+    }
+    .book-wrapper {
+        justify-content: center;
+    }
+    .button-group {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .book-image {
+        margin: auto;
+    }
+    .book-slider .slick-prev {
+        left: 41%;
+        bottom: -50px;
+    }
+    .book-slider .slick-next {
+        left: 55%;
+        bottom: -50px;
+    }
+    .newsletter-form {
+        width: 640px;
+    }
+}
+
+@media (min-width: 574px) and (max-width: 752px) {
+    .mean-container a.meanmenu-reveal {
+        margin-top: -40px;
+    }
+}
+
+
+/* small mobile */
+
+@media (max-width: 767px) {
+    .ellipse2 {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .mean-container a.meanmenu-reveal {
+        margin-top: -61px;
+    }
+    .hero-content h2 {
+        font-size: 39px;
+    }
+    .newsletter-form input#search-field {
+        width: 110%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-bg {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    .nav-wrapper {
+        padding-top: 20px;
+    }
+    .nav-wrapper nav ul li:last-child {
+        margin-left: 0;
+    }
+    .nav-wrapper nav ul li:last-child:hover a::before {
+        width: 0%;
+    }
+    .responsive-btn {
+        border-radius: 0;
+    }
+    .ellipse4 {
+        display: none;
+    }
+    .ellipse8 {
+        right: 4%;
+    }
+    .ellipse3 {
+        display: none;
+    }
+    .hero-image {
+        display: none;
+    }
+    .ellipse3,
+    .ellipse1,
+    .ellipse8,
+    .ellipse6 {
+        display: none;
+    }
+    .about-text h3 {
+        font-size: 37px;
+        line-height: 49px;
+    }
+    .about-text p {
+        font-size: 15px;
+    }
+    .responsive-center {
+        text-align: center;
+    }
+    .responsive-m-auto {
+        margin: auto;
+    }
+    .book-wrapper {
+        justify-content: center;
+    }
+    .button-group {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .book-wrapper {
+        flex-direction: column;
+    }
+    .book-image {
+        margin: auto;
+        width: 100%;
+    }
+    .book-image img {
+        width: 60%;
+    }
+    .book-slider .slick-prev {
+        left: 41%;
+        bottom: -50px;
+    }
+    .book-slider .slick-next {
+        left: 55%;
+        bottom: -50px;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1372px) {
+    .ellipse6 {
+        display: none;
+    }
+}
+
+
+/* large mobile */
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .hero-bg {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    .nav-wrapper {
+        padding-top: 20px;
+    }
+    .nav-wrapper nav ul li:last-child {
+        margin-left: 0;
+    }
+    .nav-wrapper nav ul li:last-child:hover a::before {
+        width: 0%;
+    }
+    .responsive-btn {
+        border-radius: 0;
+    }
+    .ellipse4 {
+        display: none;
+    }
+    .ellipse8 {
+        right: 4%;
+    }
+    .ellipse3 {
+        display: none;
+    }
+    .hero-image {
+        display: none;
+    }
+    .ellipse3,
+    .ellipse1,
+    .ellipse8,
+    .ellipse6 {
+        display: none;
+    }
+    .about-text h3 {
+        font-size: 37px;
+        line-height: 49px;
+    }
+    .about-text p {
+        font-size: 15px;
+    }
+    .responsive-center {
+        text-align: center;
+    }
+    .responsive-m-auto {
+        margin: auto;
+    }
+    .book-wrapper {
+        justify-content: center;
+    }
+    .button-group {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .book-image {
+        margin: auto;
+    }
+    .book-slider .slick-prev {
+        left: 41%;
+        bottom: -50px;
+    }
+    .book-slider .slick-next {
+        left: 55%;
+        bottom: -50px;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+}

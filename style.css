@@ -1,0 +1,97 @@
+/*
+Theme: Aducat
+Author: Rezwan
+Version: 1.0
+Description: Aducat single page WordPress Theme
+Tags: Business, Corporate, Responsive
+Text Domain: aducat
+*/
+
+
+/* Comment CSS */
+
+.widget_text.footer_logo.footer_social {
+    margin: 17px 0 17px 0;
+}
+
+li#custom_html-4 {
+    list-style: none;
+}
+
+textarea#con-field {
+    height: 110px!important;
+    width: 100%!important;
+    border: none;
+    padding: 11px;
+}
+
+.newsletter-form form.wpcf7-form.init p {
+    display: flex;
+}
+
+.newsletter-form input#search-field {
+    width: 160%;
+}
+
+.newsletter-form input.wpcf7-form-control.wpcf7-submit {
+    position: absolute;
+    width: 24%;
+    right: 11px;
+    background: #00938D;
+    color: #fff;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.foo_widgetquick_lnk h4 {
+    display: none;
+}
+
+section.breadcumb-area {
+    background: #d8f1e2;
+    padding: 50px 0 50px 0;
+}
+
+.breadcumb ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.breadcumb ul li a {
+    color: #000;
+}
+
+.single-blog {
+    background: aliceblue;
+    padding: 20px;
+}
+
+.single-blog img {
+    margin-bottom: 20px;
+}
+
+.post-meta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li#search-2 {
+    list-style: none;
+}
+
+.course-page {
+    padding-top: 120px;
+}
+
+@media (max-width: 575px) {
+    .newsletter-form input#search-field {
+        width: 110%;
+    }
+}
